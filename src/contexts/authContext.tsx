@@ -2,19 +2,6 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { router } from "expo-router";
 import { createContext, PropsWithChildren, useEffect, useState } from "react";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 type AuthState = {
     isLoggedIn: boolean
     isReady: boolean

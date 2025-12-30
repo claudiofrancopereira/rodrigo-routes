@@ -2,19 +2,6 @@ import { Button, View } from "react-native"
 
 import { useAuth } from "@/hooks/useAuth"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default function Index() {
     const { signOut } = useAuth()
     
